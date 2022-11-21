@@ -42,9 +42,9 @@ This assignment is broken down into the following tasks:
 
 #### Prepare the Data
 
-1. Run the provided package dependency and data imports, and then merge the `mouse_metadata` and `study_results` DataFrames into a single DataFrame.
+1. *** Run the provided package dependency and data imports, and then merge the `mouse_metadata` and `study_results` DataFrames into a single DataFrame.
 
-2. Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
+2. *** Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
 
 3. Display the updated number of unique mice IDs.
 
@@ -54,9 +54,9 @@ Create a DataFrame of summary statistics. Remember, there is more than one metho
 
 Your summary statistics should include:
 
-* A row for each drug regimen. These regimen names should be contained in the index column.
+* *** A row for each drug regimen. These regimen names should be contained in the index column.
 
-* A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
+* *** A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
 #### Create Bar Charts and Pie Charts
 
@@ -68,9 +68,9 @@ Your summary statistics should include:
 
 2. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
 
-    * Create the first pie chart with the Pandas `DataFrame.plot()` method.
+    * *** Create the first pie chart with the Pandas `DataFrame.plot()` method.
 
-    * Create the second pie chart with Matplotlib's `pyplot` methods.
+    * *** Create the second pie chart with Matplotlib's `pyplot` methods.
 
 #### Calculate Quartiles, Find Outliers, and Create a Box Plot
 
