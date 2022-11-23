@@ -82,17 +82,17 @@ Your summary statistics should include:
 
     * *** Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
 
-    * Determine outliers by using the upper and lower bounds, and then print the results.
+    * *** Determine outliers by using the upper and lower bounds, and then print the results.
 
-2. Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
+2. *** Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
 
   **hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
 
 #### Create a Line Plot and a Scatter Plot
 
-1. Select a mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
+1. *** Select a mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
-2. Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
+2. *** Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
 
 #### Calculate Correlation and Regression
 
